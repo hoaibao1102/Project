@@ -1,0 +1,51 @@
+# ==========================================
+# Java Web + NetBeans + Ant/Maven Git Ignore
+# ==========================================
+
+# === NetBeans generated files ===
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+
+# === Build artifacts ===
+build/
+dist/
+nbbuild/
+nbdist/
+
+# === IDE-specific ===
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# === Maven files ===
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# === Misc ===
+*.class
+*.log
+*.DS_Store
+*.bak
+*.tmp
+
+# === OS-specific ===
+Thumbs.db
+ehthumbs.db
+.DS_Store
+Icon?
+Desktop.ini
+
+# === User settings (optional) ===
+*.swp
+*.swo
+*.vscode/
